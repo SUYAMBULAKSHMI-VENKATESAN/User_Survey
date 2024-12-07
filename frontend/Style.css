@@ -1,0 +1,195 @@
+.gradient-custom {
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+  .form-label {
+    text-align: left;
+    display: block;
+  }
+
+  .form-control-lg {
+    height: 60px;
+  }
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-light {
+    background-color: white;
+}
+
+.navbar-dark {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+/* Theme Button */
+#themeToggle {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+#themeToggle i {
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+button {
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.btn {
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn.dark:hover{
+    background-color: white;
+    color: black;
+}
+#themeToggle:hover {
+    background-color: white;
+    color: black;
+}
+#themeToggle.dark:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Section Styles */
+section {
+    padding: 2rem 0;
+}
+
+/* Profile Page */
+.profile-container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profile-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.profile-item label {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.profile-item span {
+    font-size: 1rem;
+}
+
+.profile-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+/* Dark Mode */
+body.dark {
+    background-color: black;
+    color: white;
+}
+
+body.dark .navbar-dark {
+    background-color: black;
+}
+
+body.dark .profile-container {
+    background-color: black;
+    color: white;
+}
+
+body.dark .profile-item {
+    border-bottom-color: black;
+}
+
+body.dark button {
+    background-color: black;
+    color: white;
+}
+
+body.dark button:hover {
+    background-color: white;
+    color: black;
+}
+
+body.dark .col-md-8 {
+    background-color: rgb(43, 41, 41);
+}
+
+body.dark .card-body{
+    background-color: rgb(43, 41, 41);
+}
+
+body.dark .card-header{
+    background-color: rgb(43, 41, 41);
+}
